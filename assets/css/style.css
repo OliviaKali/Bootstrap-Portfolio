@@ -232,16 +232,6 @@ body {
     margin-top: 50px;
   }
 
-  .navbar {
-    display: flex;
-    width: 100%;
-  }
-
-  /* #text2 {
-    float: left;
-  } */
-/* look up: toggle menu items */
-
 @media screen and (max-width: 640px) {
   #text { 
     margin-left: 20px;
@@ -296,3 +286,4 @@ body {
     width: 93%;
 }
 }
+
