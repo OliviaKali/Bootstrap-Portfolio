@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | Your Name</title>
   <link rel="stylesheet" type="text/css"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -11,22 +12,28 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Your Name</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="index.html">About</a>
-        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-        <a class="nav-item nav-link" href="contact.html">Contact</a>
-      </div>
-    </div>
-  </nav>
+  <header class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Your Name</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
 
-  <div class="container">
+  <div class="container" id="text">
     <div class="row">
       <div class="col-md-12">
         <h1>About Me</h1>
@@ -37,23 +44,35 @@
         </div>
 
         <div class="col-md-9">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc
+          <p id="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc
             porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa.
             Nuncrhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin
             consectetur.</p>
 
-          <p>Donec vehicula lacus at leo feugiat lacinia. 
+          <p id="text2">Donec vehicula lacus at leo feugiat lacinia. 
             In et ex ultrices, ultrices neque non, pretium odio. 
             Nunc id eros
             iaculis, pulvinar quam eget, egestas mauris.</p>
 
-          <p>Suspendisse dictum, arcu at convallis faucibus, 
+          <p id="text2">Suspendisse dictum, arcu at convallis faucibus, 
             quam sapien tincidunt nunc, sit amet egestas nibh tortor etmi.
             Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
         </div>
       </div>
     </div>
+  </div>
 
+    <footer>
+      <div class="container">
+        Copyright &copy; 
+      </div>
+    </footer>
+<!-- 
+    <footer class="container-fluid">
+        <nav class="navbar fixed-bottom">
+          Copyright
+        </nav>
+       </footer> -->
 
 </body>
 
