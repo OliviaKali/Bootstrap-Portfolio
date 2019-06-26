@@ -242,7 +242,7 @@ body {
   } */
 /* look up: toggle menu items */
 
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
   #text { 
     margin-left: 20px;
     margin-right: 20px;
@@ -254,13 +254,15 @@ body {
     width: 90%;
     padding-bottom: 20px;
   }
+  /* .media1 {
+    height: 230px;
+    flex-direction: column;
+    text-align: center;
+  } */
 }
 
 
-@media (max-width: 768px) {
-  .navbar1 {
-    width: 100%;
-  }
+@media screen and (max-width: 768px) {
   #text { 
     margin-left: 20px;
   }
@@ -277,18 +279,20 @@ body {
 
 
 @media screen and (max-width: 980px) {
-  .navbar1 {
-    width: 100%;
-  }
-  
   #text { 
     margin-left: 20px;
+    margin-right: 20px;
+    width: 93%;
   }
   #text2 {
     padding-left: 15px;
   }
   .auth-image {
-    width: 90%;
+    width: 93%;
+    padding-left: 15px;
     padding-bottom: 20px;
   }
+  .work {
+    width: 93%;
+}
 }
